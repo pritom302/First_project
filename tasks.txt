@@ -1,1 +1,23 @@
 
+# 📝 Simple To-Do List (Python CLI)
+
+A simple **Python command-line To-Do List app** for beginners.  
+Perfect for practicing **Git, GitHub, and version control basics**.
+
+---
+
+## 🚀 Features
+- ➕ Add new tasks  
+- 📋 View all tasks  
+- ❌ Delete tasks  
+- 💾 Saves tasks to a text file automatically  
+
+---
+
+## ⚙️ How to Run
+
+1. Make sure you have **Python** installed.  
+2. Open your terminal or VS Code integrated terminal.  
+3. Navigate to the project folder:
+   ```bash
+   cd todo-list

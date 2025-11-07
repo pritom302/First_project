@@ -15,7 +15,7 @@ def save_tasks(tasks):
 
 def show_tasks(tasks):
     if not tasks:
-        print("✅ No tasks found!")
+        print("No tasks found!")
     else:
         print("\nYour To-Do List:")
         for i, task in enumerate(tasks, start=1):
@@ -39,21 +39,21 @@ def main():
             task = input("Enter a new task: ")
             tasks.append(task)
             save_tasks(tasks)
-            print("✅ Task added!\n")
+            print("Task added!\n")
         elif choice == "3":
             show_tasks(tasks)
             num = int(input("Enter task number to delete: ")) - 1
             if 0 <= num < len(tasks):
                 removed = tasks.pop(num)
                 save_tasks(tasks)
-                print(f"🗑️ Removed task: {removed}\n")
+                print(f"Removed task: {removed}\n")
             else:
-                print("❌ Invalid task number!\n")
+                print("Invalid task number!\n")
         elif choice == "4":
-            print("👋 Goodbye!")
+            print("Goodbye!")
             break
         else:
-            print("❌ Invalid choice!\n")
+            print("Invalid choice!\n")
 
 if __name__ == "__main__":
     main()
